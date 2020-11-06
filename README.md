@@ -1,1 +1,1 @@
-# Exos-pythons
+# Exos-python
