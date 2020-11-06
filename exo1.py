@@ -15,4 +15,4 @@ print("vous avez choisi la jarre n°", nbre)
 if nbre == snake: #perdu 
     print("perdu ! Un serpent apparaît")
 else: 
-    print("Félicitation, vous obtenez une clé magique !")
+    print("Félicitations, vous obtenez une clé magique !")
