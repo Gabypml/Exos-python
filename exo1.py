@@ -21,6 +21,15 @@ while keys != 3:
     if nbre != snake: #Gagné 
         print("Félicitations, vous obtenez une clé magique ! Le serpent était dans la jarre n°", snake)
         keys += 1 
+        print("Vous avez actuellement", keys, "sur 3 clés")
     else: 
         print("perdu ! Un serpent apparaît")
         keys -= 1
+
+        #si le joueur n'a pas de clés
+        if keys > 0:
+            keys -=1
+            print("Vous avez actuellement", keys, "sur 3 clés")
+
+            
+print("tu deviens le roi du temple ! Youhouuu")
